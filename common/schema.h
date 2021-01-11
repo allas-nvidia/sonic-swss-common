@@ -30,7 +30,7 @@ namespace swss {
 #define APP_FDB_TABLE_NAME                "FDB_TABLE"
 #define APP_PFC_WD_TABLE_NAME             "PFC_WD_TABLE"
 #define APP_SWITCH_TABLE_NAME             "SWITCH_TABLE"
-  
+
 #define APP_COPP_TABLE_NAME               "COPP_TABLE"
 #define APP_VRF_TABLE_NAME                "VRF_TABLE"
 #define APP_VNET_TABLE_NAME               "VNET_TABLE"
@@ -54,6 +54,7 @@ namespace swss {
 #define APP_NAPT_POOL_IP_TABLE_NAME     "NAPT_POOL_IP_TABLE"
 #define APP_NAT_DNAT_POOL_TABLE_NAME    "NAT_DNAT_POOL_TABLE"
 
+#define APP_TxMON_ERR_TABLE_NAME        "TXMON_ERR_TABLE"
 /***** TO BE REMOVED *****/
 
 #define APP_TC_TO_QUEUE_MAP_TABLE_NAME  "TC_TO_QUEUE_MAP_TABLE"
@@ -226,6 +227,7 @@ namespace swss {
 #define CFG_NAT_BINDINGS_TABLE_NAME                 "NAT_BINDINGS"
 #define CFG_NAT_GLOBAL_TABLE_NAME                   "NAT_GLOBAL"
 
+#define CFG_TxMON_ERR_TABLE_NAME                   "TXMON_ERR"
 /***** STATE DATABASE *****/
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY_TABLE"
@@ -246,6 +248,7 @@ namespace swss {
 #define STATE_BGP_TABLE_NAME                        "BGP_STATE_TABLE"
 #define STATE_DEBUG_COUNTER_CAPABILITIES_NAME       "DEBUG_COUNTER_CAPABILITIES"
 #define STATE_NAT_RESTORE_TABLE_NAME                "NAT_RESTORE_TABLE"
+#define STATE_TxMON_ERR_TABLE_NAME                  "TXMON_ERR_RESTORE_TABLE"
 
 /***** MISC *****/
 
